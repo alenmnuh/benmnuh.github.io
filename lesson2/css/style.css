@@ -1,0 +1,100 @@
+body {
+    margin: 0;
+    font-family: 'Arial', sans-serif;
+    font-weight: 400;
+    color: #040404;
+}
+
+ul {
+    list-style: none;
+}
+
+.wrapper {
+    max-width: 1366px;
+    margin: 0 auto;
+    padding: 50px 100px;
+}
+
+.header {
+    padding-bottom: 24px;
+    border-bottom: 2px solid #acacac;
+}
+
+.header-inner {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo span {
+    font-family: Arial, sans-serif;
+    font-size: 36px;
+}
+.logo span {
+    display: block;
+    font-weight: 400;
+}
+
+.menu li {
+    display: inline-block;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu a {
+    padding: 10px 20px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    font-size: 18px;
+}
+
+.menu a:hover {
+    background: darkgray;
+}
+
+.info span:first-child {
+    margin-right: 34px;
+}
+
+.main {
+    padding-top: 85px;
+}
+
+.float-left {
+    float: left;
+    margin: 0 20px 20px 0;
+    clear: both;
+}
+
+.float-right {
+    float: right;
+}
+
+img {
+    width: 333px;
+}
+
+span {
+    font-weight: 400;
+}
+
+.text h1 {
+    margin-top: 0;
+    font-size: 30px;
+}
+
+.text p {
+    color:  #040404;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 18.445px;
+}
+
+.footer {
+    font-size: 30px;
+    text-align: center;
+    padding: 200PX 0 55px;
+}
