@@ -9,9 +9,12 @@
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400,600|Lobster" rel="stylesheet">
     <link rel="stylesheet" href="css/foundation.min.css" type="text/css">
     <link rel="stylesheet" href="font-awesome/css/font-awesome.min.css" type="text/css">
+    <link rel='stylesheet' href='slick/slick.css' type='text/css'/>
+    <link rel='stylesheet' href='slick/slick-theme.css' type='text/css'/>
     <link rel="stylesheet" href="css/style.css" type="text/css">
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/foundation.min.js"></script>
+    <script type="text/javascript" src="slick/slick.min.js"></script>
 </head>
 <body>
 
@@ -63,7 +66,8 @@
             <li><a class="header__menu-a" href="#">Contact</a></li>
         </ul>
         <!-- /.header__menu -->
-        <a href="" class="header__button button red">DONATE NOW > </a>
+        <i class="fa fa-bars burger-icon fa-3x"></i>
+        <a href="" class="header__button button red">DONATE NOW<i class="header__button-icon fa fa-angle-right"></i></a>
     </div>
     <!-- /.wrapper -->
 </header>
@@ -82,43 +86,6 @@
                 </div>
             </div>
             <!-- /.banner__block -->
-
-            <div class="banner__buttons row">
-                <div class="banner__button green column medium-4">
-                    <div class="banner__icon-wrapper">
-                        <i class="fa fa-heart green-color" aria-hidden="true"></i>
-                    </div>
-                    <!-- /.banner__icon-wrapper -->
-                    <div>
-                        <pre class="banner__button-title">Donate Now                     ></pre>
-                        <p class="banner__button-subtitle">When she reached the first hills of the Italic
-                            Mountains, she had a lost view back</p>
-                    </div>
-                </div>
-
-                <div class="banner__button red column medium-4">
-                    <div class="banner__icon-wrapper">
-                        <i class="fa fa-male red-color" aria-hidden="true"></i>
-                    </div>
-                    <!-- /.banner__icon-wrapper -->
-                    <div>
-                        <pre class="banner__button-title">Volunteer                     ></pre>
-                        <p class="banner__button-subtitle">The Line Lane. Pityful a rethoric question ran
-                            over her cheek, then</p>
-                    </div>
-                </div>
-
-                <div class="banner__button blue column medium-4">
-                    <div class="banner__icon-wrapper">
-                        <i class="fa fa-star blue-color" aria-hidden="true"></i>
-                    </div>
-                    <div>
-                        <pre class="banner__button-title">Watch Wilks Story       ></pre>
-                        <p class="banner__button-subtitle">A small river named Duden flows by their place
-                            and supplies it with the necessary</p>
-                    </div>
-                </div>
-            </div>
         </div>
         <!-- /.wrapper -->
     </section>
@@ -127,8 +94,44 @@
     <!--START SECTION ABOUT-->
     <section class="about text-center">
         <div class="wrapper">
+            <div class="about__buttons row">
+                <div class="about__button green column small-10 medium-8 large-4 float-none-center">
+                    <div class="about__icon-wrapper">
+                        <i class="fa fa-heart green-color" aria-hidden="true"></i>
+                    </div>
+                    <!-- /.about__icon-wrapper -->
+                    <div>
+                        <h3 class="about__button-title">Donate Now<i class="about__button-icon fa fa-angle-right"></i></h3>
+                        <p class="about__button-subtitle">When she reached the first hills of the Italic Mountains, she had a lost view back</p>
+                    </div>
+                </div>
+
+                <div class="about__button red column small-10 medium-8 large-4 float-none-center">
+                    <div class="about__icon-wrapper">
+                        <i class="fa fa-male red-color" aria-hidden="true"></i>
+                    </div>
+                    <!-- /.about__icon-wrapper -->
+                    <div>
+                        <h3 class="about__button-title">Volunteer<i class="about__button-icon fa fa-angle-right"></i></h3>
+                        <p class="about__button-subtitle">The Line Lane. Pityful a rethoric question ran
+                            over her cheek, then</p>
+                    </div>
+                </div>
+
+                <div class="about__button blue column small-10 medium-8 large-4 float-none-center end">
+                    <div class="about__icon-wrapper">
+                        <i class="fa fa-star blue-color" aria-hidden="true"></i>
+                    </div>
+                    <div>
+                        <h3 class="about__button-title">Watch Wilks Story<i class="about__button-icon fa fa-angle-right"></i></h3>
+                        <p class="about__button-subtitle">A small river named Duden flows by their place
+                            and supplies it with the necessary</p>
+                    </div>
+                </div>
+            </div>
+            <!-- /.about__buttons -->
             <h2 class="about__title title">About Jeniffer Wilks Foundation</h2>
-            <p class="about__description">The Jennifer Wilks Foundation is a 501 c 3 foundation.
+            <p class="about__description column row medium-10 large-5">The Jennifer Wilks Foundation is a 501 c 3 foundation.
                 It was established to honor Jennifer by raising funds for the charities that
                 helped put a smile on her face during her battle with AML.</p>
             <div class="about__features row">
@@ -166,7 +169,7 @@
                 <a href="" class="events__button">SEE ALL EVENTS</a>
             </div>
             <div class="events__row row">
-                <div class="column event medium-4">
+                <div class="column small-11 event float-none-center-small text-center">
                     <img class="event__img" src="./images/event-1.jpg" alt="">
                     <!-- /.event__img -->
                     <img class="event__icon" src="./images/event-icon.png" alt="">
@@ -185,14 +188,14 @@
                     </div>
                     <!-- /.event__info -->
                     <div class="event__buttons">
-                        <a href="" class="button red">REGISTER NOW</a>
-                        <a href="" class="button">LEARN MORE</a>
+                        <a href="" class="event__button button red">REGISTER NOW</a>
+                        <a href="" class="event__button button">LEARN MORE</a>
                     </div>
                     <!-- /.event__buttons -->
                 </div>
                 <!-- /.column event -->
 
-                <div class="column event medium-4">
+                <div class="column small-11 event float-none-center-small text-center">
                     <img class="event__img" src="./images/event-2.jpg" alt="">
                     <!-- /.event__img -->
                     <img class="event__icon" src="./images/event-icon.png" alt="">
@@ -211,14 +214,14 @@
                     </div>
                     <!-- /.event__info -->
                     <div class="event__buttons">
-                        <a href="" class="button red">REGISTER NOW</a>
-                        <a href="" class="button">LEARN MORE</a>
+                        <a href="" class="event__button button red">REGISTER NOW</a>
+                        <a href="" class="event__button button">LEARN MORE</a>
                     </div>
                     <!-- /.event__buttons -->
                 </div>
                 <!-- /.column event -->
 
-                <div class="column event medium-4">
+                <div class="column small-11 event float-none-center-small text-center">
                     <img class="event__img" src="./images/event-3.png" alt="">
                     <!-- /.event__img -->
                     <img class="event__icon" src="./images/event-icon.png" alt="">
@@ -237,8 +240,8 @@
                     </div>
                     <!-- /.event__info -->
                     <div class="event__buttons">
-                        <a href="" class="button red">REGISTER NOW</a>
-                        <a href="" class="button">LEARN MORE</a>
+                        <a href="" class="event__button button red">REGISTER NOW</a>
+                        <a href="" class="event__button button">LEARN MORE</a>
                     </div>
                     <!-- /.event__buttons -->
                 </div>
@@ -251,8 +254,40 @@
 
 
     <!--START SECTION VIDEOS-->
-    <!--END SECTION VIDEOS--!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
-    !!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!>
+    <section class="videos">
+        <div class="wrapper row">
+            <div style="position: relative">
+                <div class="videos__title title">Videos</div>
+                <!-- /.event__title -->
+                <a href="" class="videos__button">SEE MORE VIDEOS</a>
+            </div>
+
+
+            <div class="video-column column medium-6">
+                <div class="video">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/qrE1s6s8HDI" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen>
+                    </iframe>
+                </div>
+                <!-- /.video -->
+                <div class="video__title">Fox7Austin interviews Tim Wilks on JWF Charity Golf Tournament 2017</div>
+                <!-- /.video__title -->
+            </div>
+            <!-- /.video -->
+
+            <div class="video-column column medium-6">
+                <div class="video">
+                    <iframe width="100%" height="100%" src="https://www.youtube.com/embed/2m2UAvVyqx4" frameborder="0"
+                            allow="autoplay; encrypted-media" allowfullscreen></iframe>
+                </div>
+                <!-- /.video -->
+                <div class="video__title">Jennifer Wilks Foundation Christmas 2016</div>
+                <!-- /.video__title -->
+            </div>
+            <!-- /.video -->
+        </div>
+    </section>
+    <!--END SECTION VIDEOS--
 
 
     <!--START SECTION NEWS-->
@@ -260,10 +295,10 @@
         <div class="wrapper">
             <div style="position: relative;">
                 <div class="news__title title">Recent News</div>
-                <a href="" class="news__button">SEE ALL EVENTS</a>
+                <a href="" class="news__button">VIEW ALL</a>
             </div>
             <div class="row news__row">
-                <div class="column new medium-4">
+                <div class="column small-11 new float-none-center-small text-center">
                     <img class="new__img" src="./images/new-1.jpg" alt="">
                     <!-- /.new__img -->
                     <div class="new__info">
@@ -278,7 +313,7 @@
                 </div>
                 <!-- /.column new -->
 
-                <div class="column new medium-4">
+                <div class="column small-11 new float-none-center-small text-center">
                     <img class="new__img" src="./images/new-2.jpg" alt="">
                     <!-- /.new__img -->
                     <div class="new__info">
@@ -293,7 +328,7 @@
                 </div>
                 <!-- /.column new -->
 
-                <div class="column new medium-4">
+                <div class="column small-11 new float-none-center-small text-center">
                     <img class="new__img" src="./images/new-3.jpg" alt="">
                     <!-- /.new__img -->
                     <div class="new__info">
@@ -317,7 +352,7 @@
 
     <!--START SECTION VOLUNTEER-->
         <section class="volunteer">
-            <div class="volunteer__inner">
+            <div class="volunteer__inner small-12 medium-9">
                 <div class="volunteer__title">Become a <span>Volunteer</span></div>
                 <!-- /.volunteer__title -->
                 <div class="volunteer__description">Lorem ipsum dolor sit amet, consectetur adipiscing elit,
@@ -331,34 +366,54 @@
 
 
     <!--START SECTION PARTNERS-->
+    <section class="partners">
+        <div class="wrapper">
+            <div class="partners__slider">
+                <div class="partners__slider-image" style="background-image: url('images/partner-1.png'); background-size: 70%;
+                    background-position: 50% 50%; background-repeat: no-repeat; height: 139px;" href="#"></div>
+                <div class="partners__slider-image" style="background-image: url('images/partner-2.png'); background-size: 70%;
+                    background-position: 50% 50%; background-repeat: no-repeat; height: 139px;" href="#"></div>
+                <div class="partners__slider-image" style="background-image: url('images/partner-3.png'); background-size: 70%;
+                    background-position: 50% 50%; background-repeat: no-repeat; height: 139px;" href="#"></div>
+                <div class="partners__slider-image" style="background-image: url('images/partner-4.png'); background-size: 70%;
+                    background-position: 50% 50%; background-repeat: no-repeat; height: 139px;" href="#"></div>
+                <div class="partners__slider-image" style="background-image: url('images/partner-1.png'); background-size: 70%;
+                    background-position: 50% 50%; background-repeat: no-repeat; height: 139px;" href="#"></div>
+                <div class="partners__slider-image" style="background-image: url('images/partner-2.png'); background-size: 70%;
+                    background-position: 50% 50%; background-repeat: no-repeat; height: 139px;" href="#"></div>
+            </div>
+        </div>
+        <!-- /.wrapper -->
+    </section>
+    <!-- /.partners -->
     <!--END SECTION PARTNERS-->
 </main>
 
 <footer class="footer">
     <div class="wrapper">
         <div class="row">
-            <div class="column medium-3">
+            <div class="column small-12 large-3 float-none-center-small">
                 <div class="footer__logo">
                     <img src="images/footer-logo.png" alt="">
                 </div>
                 <!-- /.footer__logo -->
                 <ul class="footer__socials">
-                    <li>
+                    <li class="footer__socials-icon">
                         <a href="">
                             <i class="fa fa-facebook" aria-hidden="true"></i>
                         </a>
                     </li>
-                    <li>
+                    <li class="footer__socials-icon">
                         <a href="">
                             <i class="fa fa-twitter" aria-hidden="true"></i>
                         </a>
                     </li>
-                    <li>
+                    <li class="footer__socials-icon">
                         <a href="">
                             <i class="fa fa-instagram" aria-hidden="true"></i>
                         </a>
                     </li>
-                    <li>
+                    <li class="footer__socials-icon">
                         <a href="">
                             <i class="fa fa-linkedin" aria-hidden="true"></i>
                         </a>
@@ -366,7 +421,7 @@
                 </ul>
                 <!-- /.footer__socials -->
             </div>
-            <div class="column medium-3">
+            <div class="column small-6 medium-4 large-3 float-none-center-small">
                 <h3 class="footer__title">Site Links</h3>
                 <!-- /.footer__title -->
                 <div class="footer__line">
@@ -384,7 +439,7 @@
                 </ul>
                 <!-- /.footer__menu -->
             </div>
-            <div class="column medium-3">
+            <div class="column small-6 medium-4 large-3 float-none-center-small">
                 <h3 class="footer__title">Contact Us</h3>
                 <!-- /.footer__title -->
                 <div class="footer__line">
@@ -394,7 +449,7 @@
                 <!-- /.footer__line -->
                 <div class="footer__location">
                     <i class="fa fa-map-marker" aria-hidden="true"></i>
-                    <ul>
+                    <ul class="footer__location-inner">
                         <li>Jennifer Wilks Foundation</li>
                         <li>Attn: Tim Wilks</li>
                         <li>P.O. Box 90351</li>
@@ -408,7 +463,7 @@
                 </div>
                 <!-- /.footer__number -->
             </div>
-            <div class="column medium-3">
+            <div class="column small-6 medium-4 large-3 float-none-center-small">
                 <h3 class="footer__title">Stay In Touch</h3>
                 <!-- /.footer__title -->
                 <div class="footer__line">
@@ -416,7 +471,7 @@
                     <div class="footer__line_thin"></div>
                 </div>
                 <!-- /.footer__line -->
-                <a href="" class="button volunteer__button">NEWSLETTER SIGNUP</a>
+                <a href="" class="button red footer__button">NEWSLETTER SIGNUP</a>
             </div>
         </div>
     </div>
